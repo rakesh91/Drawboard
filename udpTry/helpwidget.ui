@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>helpwidget</class>
+ <widget class="QWidget" name="helpwidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>469</width>
+    <height>282</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Help</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>-10</y>
+     <width>441</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;User guidelines :&lt;/span&gt;&lt;/p&gt;&lt;p&gt;1. &amp;quot;Your port&amp;quot; is the port through which u like to connect to destination.&lt;/p&gt;&lt;p&gt;2. &amp;quot;dest port&amp;quot; is the port in which the other person is listening.&lt;/p&gt;&lt;p&gt;3. &amp;quot;dest IP&amp;quot; is the IP address of the destination computer.&lt;/p&gt;&lt;p&gt;4. For the working of the system bothe computers &lt;span style=&quot; font-weight:600;&quot;&gt;SHOULD BE&lt;/span&gt; in same network or both should have public IP.&lt;/p&gt;&lt;p&gt;5. Failing in binding the port, will be notified in the UI.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Any problem ping me at:&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;rakeshkumar.r91@gmail.com&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
